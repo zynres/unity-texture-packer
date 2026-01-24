@@ -141,7 +141,7 @@ All data is packed directly into Albedo and Normal textures:
 ---
 
 ## Installation
-The recommended way to install the package is through the package manager in Unity (UPM). Before installing, make sure that URP is installed and correctly set up in your project. Then you can proceed to install this package:
+The don't recommended way to install the package is through the package manager in Unity (UPM). if you want a install this package with package manager this instruction with you: Before installing, make sure that URP is installed and correctly set up in your project. Then you can proceed to install this package:
 
 - Inside Unity, go to "Window"=> "Package Manager".
 
@@ -153,6 +153,8 @@ Install
 ---
 
 - Write the following URL: https://github.com/Woolction/Texture-Packer.git and click install.
+
+(Intsall the package with install zip! this is recomended way to install the package)
 
 ### Shader Location
 
