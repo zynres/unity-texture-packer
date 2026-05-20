@@ -20,7 +20,7 @@ Repository Contents
 ## Plugin Location
 The plugin is located in the Tools folder:
 
-![Texture Packer Location](Images/Location.png)
+![Texture Packer Location](images/Location.png)
 
 ---
 
@@ -28,7 +28,7 @@ The plugin is located in the Tools folder:
 The plugin has four slots (unused slots can be disabled).
 Each slot is assigned to a specific output channel, which can be selected manually.
 
-![Slots](Images/Channels.png)
+![Slots](images/Channels.png)
 
 ---
 
@@ -36,7 +36,7 @@ Each slot is assigned to a specific output channel, which can be selected manual
 > If two slots are assigned to the same channel, the data from the last slot will overwrite the previous one, since the packing process is linear.
 > Changing slot names has no functional effect — they are purely cosmetic.
 
-![Slot Name](Images/SlotName.png)
+![Slot Name](images/SlotName.png)
 
 ---
 
@@ -49,7 +49,7 @@ Each slot has two settings: Source and Type.
 Defines what data is written from the input texture into the selected output channel.
 Available options (7 total):
 
-![Source](Images/Source.png)
+![Source](images/Source.png)
 
 ---
 
@@ -67,7 +67,7 @@ The idea was to store colors as bits, allowing up to three colors to be stored i
 Defines how the data is processed before writing.
 Available options (2 total):
 
-![Type](Images/Type.png)
+![Type](images/Type.png)
 
 ---
 
@@ -78,7 +78,7 @@ Available options (2 total):
 
 The first three options are self-explanatory:
 
-![Settings](Images/OutputSettings.png)
+![Settings](images/OutputSettings.png)
 
 ---
 
@@ -102,7 +102,7 @@ Enables sRGB color space (can also be set manually)
 The repository includes shaders designed to work with packed textures.
 There are two supported workflows:
 
-### 1️⃣ Packed Map Workflow:
+### 1. Packed Map Workflow:
 The shader expects:
 
 #### Albedo: standard albedo texture
@@ -123,7 +123,7 @@ The shader expects:
 
 ---
 
-### 2️⃣ Fully Packed Workflow (No Separate Packed Map):
+### 2. Fully Packed Workflow (No Separate Packed Map):
 All data is packed directly into Albedo and Normal textures:
 
 #### Albedo Texture:
@@ -148,11 +148,11 @@ The don't recommended way to install the package is through the package manager 
 - Once the window is opened, go to the "+" symbol at the top left corner, and select "Install package from git URL". See the image below.
 Install
 
-![Package Manger](Images/Manager.png)
+![Package Manger](images/Manager.png)
 
 ---
 
-- Write the following URL: https://github.com/Woolction/Texture-Packer.git and click install.
+- Write the following URL: https://github.com/zynres/Texture-Packer.git and click install.
 
 (Intsall the package with install zip! this is recomended way to install the package)
 
@@ -160,4 +160,4 @@ Install
 
 If you install the plugin using Package Manager, then you can find Shader in the Shaders tab => CustomPBR
 
-![Shader Location](Images/ShaderLocation.png)
+![Shader Location](images/ShaderLocation.png)
