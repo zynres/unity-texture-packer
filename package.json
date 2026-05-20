@@ -1,11 +1,11 @@
 {
-    "name": "com.woolction.texture-packer",
+    "name": "com.zynres.texture-packer",
     "version": "1.0.0",
     "displayName": "Texture Packer",
     "description": "DSP",
     "unity": "2021.3",
     "author": {
-        "name": "Woolction",
-        "url": "https://github.com/Woolction"
+        "name": "zynres",
+        "url": "https://github.com/zynres"
     }
 }
