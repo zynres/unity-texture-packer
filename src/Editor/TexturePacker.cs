@@ -354,12 +354,14 @@ namespace Woolction.TexturePacker
                             case 4: format = TextureImporterFormat.BC7; break;
                         }
 
-                        var settings = new TextureImporterPlatformSettings();
-                        settings.name = "Standalone";
-                        settings.format = format;
-                        settings.maxTextureSize = imp.maxTextureSize;
-                        settings.compressionQuality = (int)TextureCompressionQuality.Normal;
-                        settings.allowsAlphaSplitting = false;
+                        var settings = new TextureImporterPlatformSettings() {
+                            name = "Standalone",
+                            format = format,
+                            maxTextureSize = imp.maxTextureSize,
+                            compressionQuality = (int)TextureCompressionQuality.Normal,
+                            allowsAlphaSplitting = false
+                        };
+    
                         imp.SetPlatformTextureSettings(settings);
                     }
                     else
